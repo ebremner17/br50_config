@@ -1,0 +1,20 @@
+uuid: 94109c31-ea51-4d8d-98f1-36accfb030a7
+langcode: en
+status: true
+dependencies:
+  theme:
+    - br50_theme
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: br50_theme_page_title
+theme: br50_theme
+region: sidebar_first
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

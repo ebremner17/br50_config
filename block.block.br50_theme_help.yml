@@ -1,0 +1,22 @@
+uuid: 658b6698-16ad-4765-88fc-c4d0a42391f3
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - br50_theme
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: br50_theme_help
+theme: br50_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

@@ -1,0 +1,23 @@
+uuid: 78b6eb62-cf1c-439a-9e44-680ffc14cc76
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  theme:
+    - br50_theme
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: br50_theme_syndicate
+theme: br50_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

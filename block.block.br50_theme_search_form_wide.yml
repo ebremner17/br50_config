@@ -1,0 +1,23 @@
+uuid: 445e77a2-7f71-4660-811c-602791e3024a
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - br50_theme
+_core:
+  default_config_hash: imMyHD6LYci0gtXq56qr9ZKGHzbEG9uFydrN5EhKtSU
+id: br50_theme_search_form_wide
+theme: br50_theme
+region: secondary_menu
+weight: -5
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

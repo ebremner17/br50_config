@@ -1,0 +1,22 @@
+uuid: 751ef0ab-066b-41d9-a623-5f8f7f3738e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - br50_theme
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: br50_theme_breadcrumbs
+theme: br50_theme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }
