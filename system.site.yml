@@ -1,0 +1,14 @@
+_core:
+  default_config_hash: VDJxTZtQR21qB4lvOq8zszJZLvLKrSPQpdn2E3T71Ww
+langcode: en
+uuid: c7321830-e8f8-4242-b6aa-4ad5b372cba8
+name: 'Royal Canadian Legion Branch 50 - Fred Gies'
+mail: eric_bremner@bell.net
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
