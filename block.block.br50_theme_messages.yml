@@ -1,0 +1,22 @@
+uuid: f5b108a1-084c-432e-b287-7806ebc58811
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - br50_theme
+_core:
+  default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
+id: br50_theme_messages
+theme: br50_theme
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
