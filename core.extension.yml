@@ -6,6 +6,7 @@ module:
   big_pipe: 0
   block: 0
   block_content: 0
+  br50_cfg: 0
   breakpoint: 0
   ckeditor5: 0
   comment: 0
@@ -23,6 +24,10 @@ module:
   help: 0
   history: 0
   image: 0
+  layout_builder: 0
+  layout_builder_browser: 0
+  layout_builder_restrictions: 0
+  layout_discovery: 0
   link: 0
   menu_link_content: 0
   menu_ui: 0

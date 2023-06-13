@@ -1,0 +1,21 @@
+uuid: d588a055-3148-4936-aef1-39374e57b473
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.layout_builder__layout
+    - node.type.br50_ct_webpage
+  module:
+    - layout_builder
+id: node.br50_ct_webpage.layout_builder__layout
+field_name: layout_builder__layout
+entity_type: node
+bundle: br50_ct_webpage
+label: Layout
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: layout_section

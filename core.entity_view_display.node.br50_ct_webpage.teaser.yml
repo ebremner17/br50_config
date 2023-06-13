@@ -1,0 +1,22 @@
+uuid: 28c5c9ff-a22d-4544-9f75-6c853877e546
+langcode: en
+status: false
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.br50_ct_webpage.layout_builder__layout
+    - node.type.br50_ct_webpage
+  module:
+    - user
+id: node.br50_ct_webpage.teaser
+targetEntityType: node
+bundle: br50_ct_webpage
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  layout_builder__layout: true

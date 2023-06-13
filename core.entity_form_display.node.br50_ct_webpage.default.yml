@@ -1,30 +1,17 @@
-uuid: a5cc8059-a9d9-4878-8e35-9f406d521a82
+uuid: 8efb4ef7-ba1b-4c07-9ac4-958b28ef30e2
 langcode: en
 status: true
 dependencies:
   config:
-    - field.field.node.page.body
-    - node.type.page
+    - field.field.node.br50_ct_webpage.layout_builder__layout
+    - node.type.br50_ct_webpage
   module:
     - path
-    - text
-_core:
-  default_config_hash: SfpLhPExzvR0MgFp0Wp7CrmgEnhcqQ-fXIWFhbf4ue0
-id: node.page.default
+id: node.br50_ct_webpage.default
 targetEntityType: node
-bundle: page
+bundle: br50_ct_webpage
 mode: default
 content:
-  body:
-    type: text_textarea_with_summary
-    weight: 31
-    region: content
-    settings:
-      rows: 9
-      summary_rows: 3
-      placeholder: ''
-      show_summary: false
-    third_party_settings: {  }
   created:
     type: datetime_timestamp
     weight: 10
@@ -76,4 +63,5 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
-hidden: {  }
+hidden:
+  layout_builder__layout: true

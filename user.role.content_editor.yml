@@ -3,8 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.article
-    - node.type.page
+    - node.type.br50_ct_webpage
     - taxonomy.vocabulary.tags
   module:
     - comment
@@ -30,19 +29,19 @@ permissions:
   - 'access toolbar'
   - 'access tour'
   - 'administer url aliases'
-  - 'create article content'
-  - 'create page content'
+  - 'create br50_ct_webpage content'
   - 'create terms in tags'
   - 'create url aliases'
-  - 'delete article revisions'
-  - 'delete own article content'
-  - 'delete own page content'
-  - 'delete page revisions'
-  - 'edit own article content'
+  - 'delete any br50_ct_webpage content'
+  - 'delete br50_ct_webpage revisions'
+  - 'delete own br50_ct_webpage content'
+  - 'edit any br50_ct_webpage content'
+  - 'edit own br50_ct_webpage content'
   - 'edit own comments'
-  - 'edit own page content'
   - 'edit terms in tags'
   - 'revert all revisions'
+  - 'revert br50_ct_webpage revisions'
   - 'view all revisions'
+  - 'view br50_ct_webpage revisions'
   - 'view own unpublished content'
   - 'view the administration theme'
