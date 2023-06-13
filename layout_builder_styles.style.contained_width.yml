@@ -1,0 +1,12 @@
+uuid: d677be25-7c59-40ec-9bd2-052fe13b25f2
+langcode: en
+status: true
+dependencies: {  }
+id: contained_width
+label: 'Contained width'
+classes: br50-contained-width
+type: section
+group: default
+block_restrictions: {  }
+layout_restrictions: {  }
+weight: 0

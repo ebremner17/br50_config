@@ -1,0 +1,10 @@
+uuid: b1fb6ab9-22fc-4f03-bb2d-4d5fe2107e34
+langcode: en
+status: true
+dependencies: {  }
+id: default
+label: Style
+multiselect: single
+form_type: multiple-select
+required: true
+weight: 100
