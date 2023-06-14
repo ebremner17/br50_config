@@ -1,0 +1,15 @@
+uuid: 35f8edb7-aedd-4800-83d8-bc11765eb5df
+langcode: en
+status: true
+dependencies: {  }
+name: is_br_50_large
+label: 'Branch 50 large'
+effects:
+  7e3ca300-dd12-4b01-ac22-3718b2f4f078:
+    uuid: 7e3ca300-dd12-4b01-ac22-3718b2f4f078
+    id: image_scale
+    weight: 1
+    data:
+      width: 1024
+      height: null
+      upscale: true

@@ -1,0 +1,15 @@
+uuid: 383519ee-b446-4344-8e21-2b56df27a787
+langcode: en
+status: true
+dependencies: {  }
+name: is_br_50_medium
+label: 'Branch 50 medium'
+effects:
+  0df00006-9d97-45f2-9d31-49e33bbe36a4:
+    uuid: 0df00006-9d97-45f2-9d31-49e33bbe36a4
+    id: image_scale
+    weight: 1
+    data:
+      width: 768
+      height: null
+      upscale: true

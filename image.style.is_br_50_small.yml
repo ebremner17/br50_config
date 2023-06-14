@@ -1,0 +1,15 @@
+uuid: 7a3cf5cd-25ee-4439-a217-e82c5b7c8bd1
+langcode: en
+status: true
+dependencies: {  }
+name: is_br_50_small
+label: 'Branch 50 small'
+effects:
+  89478f2c-fd91-4c54-bdba-e2936a6e9007:
+    uuid: 89478f2c-fd91-4c54-bdba-e2936a6e9007
+    id: image_scale
+    weight: 1
+    data:
+      width: 400
+      height: null
+      upscale: true

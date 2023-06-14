@@ -3,12 +3,14 @@ langcode: en
 status: true
 dependencies:
   config:
+    - media.type.image
     - node.type.br50_ct_webpage
     - taxonomy.vocabulary.tags
   module:
     - comment
     - contextual
     - file
+    - media
     - node
     - path
     - system
@@ -30,14 +32,19 @@ permissions:
   - 'access tour'
   - 'administer url aliases'
   - 'create br50_ct_webpage content'
+  - 'create image media'
   - 'create terms in tags'
   - 'create url aliases'
   - 'delete any br50_ct_webpage content'
+  - 'delete any image media'
   - 'delete br50_ct_webpage revisions'
   - 'delete own br50_ct_webpage content'
+  - 'delete own image media'
   - 'edit any br50_ct_webpage content'
+  - 'edit any image media'
   - 'edit own br50_ct_webpage content'
   - 'edit own comments'
+  - 'edit own image media'
   - 'edit terms in tags'
   - 'revert all revisions'
   - 'revert br50_ct_webpage revisions'

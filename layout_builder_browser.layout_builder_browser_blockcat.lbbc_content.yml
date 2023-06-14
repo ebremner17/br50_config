@@ -1,0 +1,7 @@
+uuid: a8a633a4-8210-4f25-a1a9-28e29e4cec21
+langcode: en
+status: true
+dependencies: {  }
+id: lbbc_content
+label: Content
+weight: null

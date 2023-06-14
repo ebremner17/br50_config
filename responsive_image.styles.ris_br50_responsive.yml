@@ -1,0 +1,41 @@
+uuid: 4b21ec1e-0bb7-495e-8adc-2fba91320b05
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.is_br_50_large
+    - image.style.is_br_50_medium
+    - image.style.is_br_50_small
+    - image.style.is_br_50_xsmall
+  theme:
+    - br50_theme
+id: ris_br50_responsive
+label: 'Branch 50 responsive'
+image_style_mappings:
+  -
+    image_mapping_type: image_style
+    image_mapping: '_original image_'
+    breakpoint_id: br50_theme.x-large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_br_50_large
+    breakpoint_id: br50_theme.large
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_br_50_medium
+    breakpoint_id: br50_theme.medium
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_br_50_small
+    breakpoint_id: br50_theme.small
+    multiplier: 1x
+  -
+    image_mapping_type: image_style
+    image_mapping: is_br_50_xsmall
+    breakpoint_id: br50_theme.x-small
+    multiplier: 1x
+breakpoint_group: br50_theme
+fallback_image_style: is_br_50_large
