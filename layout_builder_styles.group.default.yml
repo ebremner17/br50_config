@@ -6,5 +6,5 @@ id: default
 label: Style
 multiselect: single
 form_type: multiple-select
-required: true
+required: false
 weight: 100

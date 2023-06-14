@@ -1,0 +1,11 @@
+uuid: ea7b7225-1356-4c62-bda3-444dbe576283
+langcode: en
+status: true
+dependencies: {  }
+id: br50_lbb_events_calendar
+block_id: 'views_block:events_calendar-block_1'
+category: lbbc_content
+label: 'Events calendar'
+image_path: /themes/custom/br50_theme/images/layout_builder_browser/eventcalendar.svg
+image_alt: 'Event calendar'
+weight: -100

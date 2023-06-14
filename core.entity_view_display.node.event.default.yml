@@ -1,0 +1,41 @@
+uuid: 8be171b6-54de-4ab5-96df-2cdc057d98eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_when
+    - field.field.node.event.layout_builder__layout
+    - node.type.event
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      allowed_layouts:
+        - br50_1_column
+        - br50_2_column
+        - br50_3_column
+        - br50_4_column
+        - br50_5_column
+        - br50_inverted_l_right
+        - br50_inverted_l_left
+      denylisted_blocks: {  }
+      allowlisted_blocks: {  }
+      restricted_categories: {  }
+_core:
+  default_config_hash: _wJpjAm9mL9fSrTxY990d6dqKbX1oKvHzs_AEvwrhU0
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content: {  }
+hidden:
+  field_when: true
+  layout_builder__layout: true
+  links: true
