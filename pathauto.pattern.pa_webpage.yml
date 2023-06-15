@@ -1,0 +1,22 @@
+uuid: f622efbd-0061-4a27-ae96-d3ff8d7c4a61
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pa_webpage
+label: Webpage
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  67683f3a-cec4-4e3c-b4b9-c710183bf330:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 67683f3a-cec4-4e3c-b4b9-c710183bf330
+    context_mapping:
+      node: node
+    bundles:
+      br50_ct_webpage: br50_ct_webpage
+selection_logic: and
+weight: -5
+relationships: {  }

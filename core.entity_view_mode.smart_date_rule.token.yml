@@ -1,0 +1,10 @@
+uuid: dc88977e-8b50-475b-a452-fd8b3f957fe7
+langcode: en
+status: true
+dependencies:
+  module:
+    - smart_date_recur
+id: smart_date_rule.token
+label: Token
+targetEntityType: smart_date_rule
+cache: true

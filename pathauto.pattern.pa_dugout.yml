@@ -1,0 +1,22 @@
+uuid: 8c099848-c082-4ffd-9cdb-4e27cb8c35ef
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: pa_dugout
+label: Dugout
+type: 'canonical_entities:node'
+pattern: 'dugout/[node:title]'
+selection_criteria:
+  9e0979a3-4368-4aa8-98a8-99725c1062f8:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 9e0979a3-4368-4aa8-98a8-99725c1062f8
+    context_mapping:
+      node: node
+    bundles:
+      br50_ct_dugout: br50_ct_dugout
+selection_logic: and
+weight: -5
+relationships: {  }
