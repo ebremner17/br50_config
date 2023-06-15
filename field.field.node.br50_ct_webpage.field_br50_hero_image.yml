@@ -1,0 +1,29 @@
+uuid: 0ab87900-fd92-440c-b0f6-5c9860475995
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_br50_hero_image
+    - media.type.image
+    - node.type.br50_ct_webpage
+id: node.br50_ct_webpage.field_br50_hero_image
+field_name: field_br50_hero_image
+entity_type: node
+bundle: br50_ct_webpage
+label: 'Hero image'
+description: 'Upload an image for the hero.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
