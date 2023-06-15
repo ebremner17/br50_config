@@ -1,0 +1,24 @@
+uuid: 92e32154-6cc1-4cb8-ac56-c8b1bdb88a0d
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.br50_ct_dugout.field_br50_dugout_current
+    - field.field.node.br50_ct_dugout.field_br50_dugout_file
+    - node.type.br50_ct_dugout
+  module:
+    - user
+id: node.br50_ct_dugout.teaser
+targetEntityType: node
+bundle: br50_ct_dugout
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_br50_dugout_current: true
+  field_br50_dugout_file: true

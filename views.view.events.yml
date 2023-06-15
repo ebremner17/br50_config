@@ -80,7 +80,7 @@ display:
         type: mini
         options:
           offset: 0
-          items_per_page: 20
+          items_per_page: 5
           total_pages: null
           id: 0
           tags:
@@ -398,6 +398,26 @@ display:
         - user.permissions
       tags:
         - 'config:field.storage.node.field_when'
+  block_events_upcoming:
+    id: block_events_upcoming
+    display_title: 'Events upcoming'
+    display_plugin: block
+    position: 4
+    display_options:
+      display_description: ''
+      display_extenders: {  }
+      block_description: 'Events upcoming'
+      allow:
+        items_per_page: false
+    cache_metadata:
+      max-age: -1
+      contexts:
+        - 'languages:language_content'
+        - 'languages:language_interface'
+        - url.query_args
+        - 'user.node_grants:view'
+        - user.permissions
+      tags: {  }
   page_1:
     id: page_1
     display_title: 'Page - Upcoming'

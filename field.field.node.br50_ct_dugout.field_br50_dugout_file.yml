@@ -1,0 +1,29 @@
+uuid: 6a315d80-f5d4-4894-b295-11e7fc3c0029
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_br50_dugout_file
+    - media.type.document
+    - node.type.br50_ct_dugout
+id: node.br50_ct_dugout.field_br50_dugout_file
+field_name: field_br50_dugout_file
+entity_type: node
+bundle: br50_ct_dugout
+label: 'Dugout file'
+description: 'Upload the file for the dugout'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      document: document
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

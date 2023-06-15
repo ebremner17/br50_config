@@ -1,0 +1,17 @@
+uuid: 5f0a9036-7d43-49e8-b732-9a913cc4f651
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Dugout
+type: br50_ct_dugout
+description: 'The Dugout for Branch 50 RCL'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

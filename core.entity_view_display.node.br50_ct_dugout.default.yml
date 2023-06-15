@@ -1,0 +1,31 @@
+uuid: b7998b31-d322-4ba6-9dbc-2e715970929a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.br50_ct_dugout.field_br50_dugout_current
+    - field.field.node.br50_ct_dugout.field_br50_dugout_file
+    - node.type.br50_ct_dugout
+  module:
+    - user
+id: node.br50_ct_dugout.default
+targetEntityType: node
+bundle: br50_ct_dugout
+mode: default
+content:
+  field_br50_dugout_file:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  field_br50_dugout_current: true

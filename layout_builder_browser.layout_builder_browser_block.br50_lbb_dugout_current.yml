@@ -1,0 +1,11 @@
+uuid: d4cca13f-34fa-4ca6-bb70-2d95220e5f7a
+langcode: en
+status: true
+dependencies: {  }
+id: br50_lbb_dugout_current
+block_id: 'views_block:br50_view_dugout-block_1'
+category: lbbc_content
+label: 'Dugout (current issue)'
+image_path: /themes/custom/br50_theme/images/layout_builder_browser/dugout.svg
+image_alt: 'Dugout currrent issue'
+weight: -2

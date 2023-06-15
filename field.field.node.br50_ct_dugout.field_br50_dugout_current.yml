@@ -1,0 +1,23 @@
+uuid: 119a5078-39af-4c31-8e90-436c27ebc1a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_br50_dugout_current
+    - node.type.br50_ct_dugout
+id: node.br50_ct_dugout.field_br50_dugout_current
+field_name: field_br50_dugout_current
+entity_type: node
+bundle: br50_ct_dugout
+label: 'Current issue'
+description: 'Select if this is the current Dugout issue'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean
