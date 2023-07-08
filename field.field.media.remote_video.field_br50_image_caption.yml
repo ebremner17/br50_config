@@ -1,0 +1,19 @@
+uuid: 02a7c439-8241-47ab-b634-5b14d84ea279
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_br50_image_caption
+    - media.type.remote_video
+id: media.remote_video.field_br50_image_caption
+field_name: field_br50_image_caption
+entity_type: media
+bundle: remote_video
+label: Caption
+description: 'Enter a caption for the video'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

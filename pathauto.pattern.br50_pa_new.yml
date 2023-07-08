@@ -1,0 +1,22 @@
+uuid: 868873b8-b4a0-48e4-81b4-6dcbb76b83b2
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: br50_pa_new
+label: New
+type: 'canonical_entities:node'
+pattern: 'news/[node:title]'
+selection_criteria:
+  5362e129-e2ec-48f5-a6af-ba556d705e41:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 5362e129-e2ec-48f5-a6af-ba556d705e41
+    context_mapping:
+      node: node
+    bundles:
+      br50_news: br50_news
+selection_logic: and
+weight: -5
+relationships: {  }

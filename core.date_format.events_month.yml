@@ -1,0 +1,8 @@
+uuid: 50665e8b-63a5-465c-865d-343306a7923a
+langcode: en
+status: true
+dependencies: {  }
+id: events_month
+label: 'Events month'
+locked: false
+pattern: M

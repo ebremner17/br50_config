@@ -14,11 +14,14 @@ targetEntityType: node
 bundle: br50_ct_dugout
 mode: teaser
 content:
-  links:
-    settings: {  }
+  field_br50_dugout_file:
+    type: entity_reference_label
+    label: hidden
+    settings:
+      link: true
     third_party_settings: {  }
-    weight: 100
+    weight: 0
     region: content
 hidden:
   field_br50_dugout_current: true
-  field_br50_dugout_file: true
+  links: true

@@ -1,0 +1,10 @@
+uuid: d30cf630-7940-4f6a-9a18-b4aba7e5b2df
+langcode: en
+status: true
+dependencies:
+  module:
+    - media
+id: media.listing_image
+label: 'Listing image'
+targetEntityType: media
+cache: true

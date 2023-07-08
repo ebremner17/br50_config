@@ -1,0 +1,19 @@
+uuid: e3f573fb-8d74-4acb-a2f2-36f281adfcb5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.media.field_br50_image_caption
+    - media.type.image
+id: media.image.field_br50_image_caption
+field_name: field_br50_image_caption
+entity_type: media
+bundle: image
+label: Caption
+description: 'Enter a caption to go with the image.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

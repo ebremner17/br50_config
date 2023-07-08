@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.media.image.field_br50_image_caption
     - field.field.media.image.field_media_image
     - media.type.image
     - responsive_image.styles.ris_br50_responsive
@@ -15,6 +16,13 @@ targetEntityType: media
 bundle: image
 mode: default
 content:
+  field_br50_image_caption:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
   field_media_image:
     type: responsive_image
     label: hidden

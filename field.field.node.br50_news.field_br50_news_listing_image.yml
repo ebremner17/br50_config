@@ -1,17 +1,17 @@
-uuid: 0ab87900-fd92-440c-b0f6-5c9860475995
+uuid: ac783fa6-04c5-4013-901e-b98a30a98beb
 langcode: en
 status: true
 dependencies:
   config:
-    - field.storage.node.field_br50_hero_image
+    - field.storage.node.field_br50_news_listing_image
     - media.type.image
-    - node.type.br50_ct_webpage
-id: node.br50_ct_webpage.field_br50_hero_image
-field_name: field_br50_hero_image
+    - node.type.br50_news
+id: node.br50_news.field_br50_news_listing_image
+field_name: field_br50_news_listing_image
 entity_type: node
-bundle: br50_ct_webpage
-label: 'Hero image'
-description: 'Upload an image for the hero.'
+bundle: br50_news
+label: 'Listing image'
+description: 'Select an image to be used on the listing page.'
 required: false
 translatable: false
 default_value: {  }

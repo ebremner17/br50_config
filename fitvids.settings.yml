@@ -1,0 +1,5 @@
+_core:
+  default_config_hash: 2VIFfYIzLIphEpkJSH9KfhEE0P66ieHfusDj6QMJIzY
+selectors: ".node\r\n.field--name-field-media-oembed-video"
+custom_vendors: 'https://youtube.com'
+ignore_selectors: ''

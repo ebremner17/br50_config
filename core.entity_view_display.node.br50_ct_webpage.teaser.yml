@@ -4,7 +4,7 @@ status: false
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.br50_ct_webpage.field_br50_hero_image
+    - field.field.node.br50_ct_webpage.field_br50_banners
     - field.field.node.br50_ct_webpage.layout_builder__layout
     - node.type.br50_ct_webpage
   module:
@@ -20,5 +20,5 @@ content:
     weight: 100
     region: content
 hidden:
-  field_br50_hero_image: true
+  field_br50_banners: true
   layout_builder__layout: true

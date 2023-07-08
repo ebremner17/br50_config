@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - field.field.node.event.field_br50_banners
     - field.field.node.event.field_when
     - field.field.node.event.layout_builder__layout
     - node.type.event
@@ -14,6 +15,13 @@ third_party_settings:
   layout_builder:
     enabled: true
     allow_custom: true
+    sections:
+      -
+        layout_id: layout_builder_blank
+        layout_settings:
+          label: ''
+        components: {  }
+        third_party_settings: {  }
   layout_builder_restrictions:
     allowed_block_categories: {  }
     entity_view_mode_restriction:
@@ -34,7 +42,15 @@ id: node.event.default
 targetEntityType: node
 bundle: event
 mode: default
-content: {  }
+content:
+  field_br50_banners:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
 hidden:
   field_when: true
   layout_builder__layout: true

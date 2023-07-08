@@ -1,0 +1,82 @@
+uuid: d3873df9-d974-41a6-93c4-0c6961699fa9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.br50_news.field_br50_banners
+    - field.field.node.br50_news.field_br50_news_date
+    - field.field.node.br50_news.field_br50_news_listing_image
+    - field.field.node.br50_news.field_br50_news_summary
+    - field.field.node.br50_news.layout_builder__layout
+    - node.type.br50_news
+  module:
+    - layout_builder
+    - layout_builder_restrictions
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: true
+    sections:
+      -
+        layout_id: layout_builder_blank
+        layout_settings:
+          label: ''
+        components:
+          839b37ca-575c-4e79-a83f-ca38cd91b1db:
+            uuid: 839b37ca-575c-4e79-a83f-ca38cd91b1db
+            region: null
+            configuration:
+              id: 'field_block:node:br50_news:field_br50_news_summary'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: text_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+  layout_builder_restrictions:
+    allowed_block_categories: {  }
+    entity_view_mode_restriction:
+      allowed_layouts:
+        - br50_1_column
+        - br50_2_column
+        - br50_3_column
+        - br50_4_column
+        - br50_5_column
+        - br50_inverted_l_right
+        - br50_inverted_l_left
+      denylisted_blocks: {  }
+      allowlisted_blocks: {  }
+      restricted_categories: {  }
+id: node.br50_news.default
+targetEntityType: node
+bundle: br50_news
+mode: default
+content:
+  field_br50_news_listing_image:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_br50_news_summary:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: null
+hidden:
+  field_br50_banners: true
+  field_br50_news_date: true
+  layout_builder__layout: true
+  links: true

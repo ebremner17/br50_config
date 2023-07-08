@@ -1,0 +1,15 @@
+uuid: 41ac7f19-28a1-42cc-a3bc-4075828f429b
+langcode: en
+status: true
+dependencies: {  }
+id: br50_sdf_events
+label: events
+date_format: 'l, F j, Y'
+time_format: 'g:ia'
+time_hour_format: ga
+allday_label: 'All day'
+separator: ' - '
+join: ': '
+ampm_reduce: '0'
+date_first: '1'
+site_time_toggle: '1'

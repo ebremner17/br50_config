@@ -1,0 +1,31 @@
+uuid: 04cc0311-2220-4f88-b381-870830f3d5f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_br50_banners
+    - media.type.image
+    - media.type.remote_video
+    - node.type.event
+id: node.event.field_br50_banners
+field_name: field_br50_banners
+entity_type: node
+bundle: event
+label: Banners
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:media'
+  handler_settings:
+    target_bundles:
+      image: image
+      remote_video: remote_video
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: image
+field_type: entity_reference

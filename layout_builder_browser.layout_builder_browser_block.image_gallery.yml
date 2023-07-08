@@ -1,0 +1,11 @@
+uuid: fa7285d7-fda6-4139-b270-c20c3b1bc951
+langcode: en
+status: true
+dependencies: {  }
+id: image_gallery
+block_id: br50_cbl_image_gallery
+category: lbbc_content
+label: 'Image gallery'
+image_path: /themes/custom/br50_theme/images/layout_builder_browser/imagegallery.svg
+image_alt: 'Image gallery'
+weight: 0

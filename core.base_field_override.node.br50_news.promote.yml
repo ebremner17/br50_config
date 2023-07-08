@@ -1,0 +1,22 @@
+uuid: f16b846a-83b7-4fcd-a611-e10b7e20d74d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.br50_news
+id: node.br50_news.promote
+field_name: promote
+entity_type: node
+bundle: br50_news
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,11 @@
+uuid: 191cc6e4-7e0f-4dd3-996a-69f2c4042a69
+langcode: en
+status: true
+dependencies: {  }
+id: br50_lbb_latest_news
+block_id: 'views_block:br50_view_news-block_1'
+category: lbbc_content
+label: 'Latest news'
+image_path: /themes/custom/br50_theme/images/layout_builder_browser/newslist.svg
+image_alt: News
+weight: 2

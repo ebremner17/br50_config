@@ -1,0 +1,8 @@
+uuid: 2717dbad-5fa6-42b5-bbf4-fa1abb37544b
+langcode: en
+status: true
+dependencies: {  }
+id: events_date
+label: 'Events date'
+locked: false
+pattern: 'M j'

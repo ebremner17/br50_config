@@ -7,6 +7,11 @@ dependencies:
     - node.type.event
   module:
     - smart_date
+    - smart_date_recur
+third_party_settings:
+  smart_date_recur:
+    allow_recurring: true
+    month_limit: 12
 _core:
   default_config_hash: nKZZDdhnojhVj7pdps8CNK31BrY1UUMw3ESSPCi0pRk
 id: node.event.field_when
@@ -15,7 +20,7 @@ entity_type: node
 bundle: event
 label: When
 description: ''
-required: false
+required: true
 translatable: false
 default_value:
   -
@@ -23,6 +28,8 @@ default_value:
     default_duration_increments: "30\r\n60|1 hour\r\n90\r\n120|2 hours\r\ncustom"
     default_date_type: next_hour
     default_date: ''
+    min: ''
+    max: ''
 default_value_callback: ''
 settings: {  }
 field_type: smartdate

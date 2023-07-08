@@ -1,0 +1,8 @@
+uuid: dc03aa54-e4fc-4545-adfd-f33a3eb1f1f0
+langcode: en
+status: true
+dependencies: {  }
+id: br50_dtf_news_date
+label: 'News date'
+locked: false
+pattern: 'F j, Y'

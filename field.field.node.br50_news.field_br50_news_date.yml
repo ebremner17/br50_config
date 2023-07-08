@@ -1,0 +1,24 @@
+uuid: 971f7490-5e8d-415f-9010-13b34ed10667
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_br50_news_date
+    - node.type.br50_news
+  module:
+    - datetime
+id: node.br50_news.field_br50_news_date
+field_name: field_br50_news_date
+entity_type: node
+bundle: br50_news
+label: Date
+description: 'Enter to date for the news.'
+required: true
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

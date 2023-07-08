@@ -8,4 +8,4 @@ category: lbbc_content
 label: 'Events upcoming'
 image_path: /themes/custom/br50_theme/images/layout_builder_browser/eventupcoming.svg
 image_alt: 'Events upcoming'
-weight: 0
+weight: -1

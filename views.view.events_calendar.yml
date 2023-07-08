@@ -200,10 +200,12 @@ display:
           start: field_when
           end: field_when
           title: title
-          right_buttons: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
           left_buttons: 'prev,next today'
-          default_view: dayGridMonth
+          right_buttons: 'dayGridMonth,timeGridWeek,timeGridDay,listYear'
+          default_view: listYear
           firstDay: '0'
+          minTime: '00:00:00'
+          maxTime: '23:59:59'
           nav_links: 1
           timeFormat: ''
           allowEventOverlap: 1
@@ -212,11 +214,17 @@ display:
           defaultLanguage: en
           languageSelector: 0
           dialogWindow: 0
-          createEventLink: 0
           openEntityInNewTab: 1
+          dialogModal: 0
+          createEventLink: 0
+          eventLimit: '2'
+          slotDuration: '00:30:00'
           tax_field: ''
           vocabularies: ''
-          color_bundle: ''
+          color_bundle:
+            br50_ct_dugout: '#3a87ad'
+            br50_ct_webpage: '#3a87ad'
+            event: '#3a87ad'
           rrule: ''
           duration: ''
           bundle_type: event

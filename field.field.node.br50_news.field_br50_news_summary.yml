@@ -1,0 +1,21 @@
+uuid: 9b8573c2-8ece-493b-9a5e-ae485392e428
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_br50_news_summary
+    - node.type.br50_news
+  module:
+    - text
+id: node.br50_news.field_br50_news_summary
+field_name: field_br50_news_summary
+entity_type: node
+bundle: br50_news
+label: Summary
+description: 'Enter a summary of the news, 255 maximum characters.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

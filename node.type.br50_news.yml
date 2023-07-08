@@ -1,0 +1,17 @@
+uuid: a4a216f8-6c51-4f6c-afb8-b43e31228071
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: News
+type: br50_news
+description: 'News for Branch 50 RCL'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
