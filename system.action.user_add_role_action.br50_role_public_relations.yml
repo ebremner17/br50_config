@@ -1,0 +1,14 @@
+uuid: eef8f6b0-9264-48eb-a122-466641181b3e
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.br50_role_public_relations
+  module:
+    - user
+id: user_add_role_action.br50_role_public_relations
+label: 'Add the Public relations role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: br50_role_public_relations

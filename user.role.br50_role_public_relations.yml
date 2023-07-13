@@ -1,0 +1,81 @@
+uuid: 91733450-5c79-468f-ae43-902bc72d912f
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - media.type.image
+    - media.type.remote_video
+    - node.type.br50_ct_webpage
+    - node.type.br50_news
+    - taxonomy.vocabulary.tags
+  module:
+    - contextual
+    - file
+    - filter
+    - media
+    - node
+    - path
+    - smart_date_recur
+    - system
+    - taxonomy
+    - toolbar
+id: br50_role_public_relations
+label: 'Public relations'
+weight: 7
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'cancel smart date recur instances'
+  - 'create br50_ct_webpage content'
+  - 'create br50_news content'
+  - 'create image media'
+  - 'create media'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any br50_ct_webpage content'
+  - 'delete any br50_news content'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any remote_video media'
+  - 'delete br50_ct_webpage revisions'
+  - 'delete br50_news revisions'
+  - 'delete media'
+  - 'delete own br50_ct_webpage content'
+  - 'delete own br50_news content'
+  - 'delete own image media'
+  - 'delete own remote_video media'
+  - 'delete terms in tags'
+  - 'edit any br50_ct_webpage content'
+  - 'edit any br50_news content'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit own br50_ct_webpage content'
+  - 'edit own br50_news content'
+  - 'edit own image media'
+  - 'edit own remote_video media'
+  - 'edit terms in tags'
+  - 'make smart dates recur'
+  - 'reschedule smart date recur instances'
+  - 'revert all revisions'
+  - 'revert br50_ct_webpage revisions'
+  - 'revert br50_news revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format full_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view br50_ct_webpage revisions'
+  - 'view br50_news revisions'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'

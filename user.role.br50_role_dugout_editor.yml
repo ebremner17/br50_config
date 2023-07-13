@@ -1,0 +1,68 @@
+uuid: 8e8b053e-5c2c-4f6b-8364-e103a781999c
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - media.type.image
+    - media.type.remote_video
+    - node.type.br50_ct_dugout
+    - taxonomy.vocabulary.tags
+  module:
+    - contextual
+    - file
+    - filter
+    - media
+    - node
+    - path
+    - system
+    - taxonomy
+    - toolbar
+id: br50_role_dugout_editor
+label: 'Dugout editor'
+weight: 5
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'create br50_ct_dugout content'
+  - 'create image media'
+  - 'create media'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any br50_ct_dugout content'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any remote_video media'
+  - 'delete br50_ct_dugout revisions'
+  - 'delete media'
+  - 'delete own br50_ct_dugout content'
+  - 'delete own image media'
+  - 'delete own remote_video media'
+  - 'delete terms in tags'
+  - 'edit any br50_ct_dugout content'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit own br50_ct_dugout content'
+  - 'edit own image media'
+  - 'edit own remote_video media'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert br50_ct_dugout revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format full_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view br50_ct_dugout revisions'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'

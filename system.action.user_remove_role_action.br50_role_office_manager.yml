@@ -1,0 +1,14 @@
+uuid: ff348192-525e-4ade-b9f1-0d4570691679
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.br50_role_office_manager
+  module:
+    - user
+id: user_remove_role_action.br50_role_office_manager
+label: 'Remove the Office manager role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: br50_role_office_manager

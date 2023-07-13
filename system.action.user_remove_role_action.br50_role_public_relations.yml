@@ -1,0 +1,14 @@
+uuid: 48151294-7308-43a9-b9d3-1ca7059199ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.br50_role_public_relations
+  module:
+    - user
+id: user_remove_role_action.br50_role_public_relations
+label: 'Remove the Public relations role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: br50_role_public_relations

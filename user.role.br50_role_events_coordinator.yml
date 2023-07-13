@@ -1,0 +1,72 @@
+uuid: 45160ac0-5c9c-4d16-ab67-9062b6490743
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.full_html
+    - media.type.image
+    - media.type.remote_video
+    - node.type.event
+    - taxonomy.vocabulary.tags
+  module:
+    - contextual
+    - file
+    - filter
+    - media
+    - node
+    - path
+    - smart_date_recur
+    - system
+    - taxonomy
+    - toolbar
+id: br50_role_events_coordinator
+label: 'Events coordinator'
+weight: 6
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access files overview'
+  - 'access media overview'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'cancel smart date recur instances'
+  - 'create event content'
+  - 'create image media'
+  - 'create media'
+  - 'create remote_video media'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete any event content'
+  - 'delete any image media'
+  - 'delete any media'
+  - 'delete any remote_video media'
+  - 'delete event revisions'
+  - 'delete media'
+  - 'delete own event content'
+  - 'delete own image media'
+  - 'delete own remote_video media'
+  - 'delete terms in tags'
+  - 'edit any event content'
+  - 'edit any image media'
+  - 'edit any remote_video media'
+  - 'edit own event content'
+  - 'edit own image media'
+  - 'edit own remote_video media'
+  - 'edit terms in tags'
+  - 'make smart dates recur'
+  - 'reschedule smart date recur instances'
+  - 'revert all revisions'
+  - 'revert event revisions'
+  - 'update any media'
+  - 'update media'
+  - 'use text format full_html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view event revisions'
+  - 'view own unpublished content'
+  - 'view own unpublished media'
+  - 'view the administration theme'

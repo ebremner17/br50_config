@@ -1,0 +1,14 @@
+uuid: 65d33e2b-8a66-4a36-aec5-26237068ddbe
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.br50_role_dugout_editor
+  module:
+    - user
+id: user_add_role_action.br50_role_dugout_editor
+label: 'Add the Dugout editor role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: br50_role_dugout_editor

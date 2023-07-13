@@ -1,0 +1,14 @@
+uuid: ce1cf128-c068-4a31-8971-25cdc417f1c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.br50_role_office_manager
+  module:
+    - user
+id: user_add_role_action.br50_role_office_manager
+label: 'Add the Office manager role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: br50_role_office_manager

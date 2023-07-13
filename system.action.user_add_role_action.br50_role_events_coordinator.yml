@@ -1,0 +1,14 @@
+uuid: 11d7d983-49db-497c-bc95-d3ddb2448a1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.br50_role_events_coordinator
+  module:
+    - user
+id: user_add_role_action.br50_role_events_coordinator
+label: 'Add the Events coordinator role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: br50_role_events_coordinator
