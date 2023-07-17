@@ -8,4 +8,4 @@ category: lbbc_content
 label: 'Remote video'
 image_path: /themes/custom/br50_theme/images/layout_builder_browser/video.svg
 image_alt: 'Remote video'
-weight: -100
+weight: 3
