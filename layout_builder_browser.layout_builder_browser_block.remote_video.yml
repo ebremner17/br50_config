@@ -1,0 +1,11 @@
+uuid: 77e1cfe3-2642-4998-b2a7-a491b0480052
+langcode: en
+status: true
+dependencies: {  }
+id: remote_video
+block_id: br50_cbl_remote_video
+category: lbbc_content
+label: 'Remote video'
+image_path: /themes/custom/br50_theme/images/layout_builder_browser/video.svg
+image_alt: 'Remote video'
+weight: -100
