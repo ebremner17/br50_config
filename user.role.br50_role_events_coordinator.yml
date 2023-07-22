@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.node.event.default
     - filter.format.full_html
     - media.type.image
     - media.type.remote_video
@@ -12,6 +13,7 @@ dependencies:
     - contextual
     - file
     - filter
+    - layout_builder
     - media
     - node
     - path
@@ -34,6 +36,7 @@ permissions:
   - 'administer taxonomy'
   - 'administer url aliases'
   - 'cancel smart date recur instances'
+  - 'configure editable event node layout overrides'
   - 'create event content'
   - 'create image media'
   - 'create media'

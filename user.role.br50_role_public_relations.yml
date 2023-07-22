@@ -3,6 +3,8 @@ langcode: en
 status: true
 dependencies:
   config:
+    - core.entity_view_display.node.br50_ct_webpage.default
+    - core.entity_view_display.node.br50_news.default
     - filter.format.full_html
     - media.type.image
     - media.type.remote_video
@@ -13,6 +15,7 @@ dependencies:
     - contextual
     - file
     - filter
+    - layout_builder
     - media
     - node
     - path
@@ -35,6 +38,8 @@ permissions:
   - 'administer taxonomy'
   - 'administer url aliases'
   - 'cancel smart date recur instances'
+  - 'configure editable br50_ct_webpage node layout overrides'
+  - 'configure editable br50_news node layout overrides'
   - 'create br50_ct_webpage content'
   - 'create br50_news content'
   - 'create image media'
