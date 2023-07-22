@@ -17,6 +17,7 @@ dependencies:
     - filter
     - layout_builder
     - media
+    - menu_admin_per_menu
     - node
     - path
     - smart_date_recur
@@ -35,6 +36,8 @@ permissions:
   - 'access media overview'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'administer main menu items'
+  - 'administer menu'
   - 'administer taxonomy'
   - 'administer url aliases'
   - 'cancel smart date recur instances'

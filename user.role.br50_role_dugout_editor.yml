@@ -13,6 +13,7 @@ dependencies:
     - file
     - filter
     - media
+    - menu_admin_per_menu
     - node
     - path
     - system
@@ -30,6 +31,8 @@ permissions:
   - 'access media overview'
   - 'access taxonomy overview'
   - 'access toolbar'
+  - 'administer main menu items'
+  - 'administer menu'
   - 'administer taxonomy'
   - 'administer url aliases'
   - 'create br50_ct_dugout content'

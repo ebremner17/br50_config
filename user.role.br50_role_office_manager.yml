@@ -20,6 +20,7 @@ dependencies:
     - filter
     - layout_builder
     - media
+    - menu_admin_per_menu
     - node
     - path
     - smart_date_recur
@@ -40,6 +41,8 @@ permissions:
   - 'access toolbar'
   - 'access user profiles'
   - 'administer account settings'
+  - 'administer main menu items'
+  - 'administer menu'
   - 'administer taxonomy'
   - 'administer url aliases'
   - 'administer users'
