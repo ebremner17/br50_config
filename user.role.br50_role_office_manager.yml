@@ -15,6 +15,7 @@ dependencies:
     - node.type.event
     - taxonomy.vocabulary.tags
   module:
+    - br50_cfg
     - contextual
     - file
     - filter
@@ -43,6 +44,7 @@ permissions:
   - 'administer account settings'
   - 'administer main menu items'
   - 'administer menu'
+  - 'administer site notices'
   - 'administer taxonomy'
   - 'administer url aliases'
   - 'administer users'
