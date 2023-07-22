@@ -214,16 +214,17 @@ display:
           defaultLanguage: en
           languageSelector: 0
           dialogWindow: 0
-          openEntityInNewTab: 1
+          openEntityInNewTab: 0
           dialogModal: 0
           createEventLink: 0
-          eventLimit: '2'
+          eventLimit: '7'
           slotDuration: '00:30:00'
           tax_field: ''
           vocabularies: ''
           color_bundle:
             br50_ct_dugout: '#3a87ad'
             br50_ct_webpage: '#3a87ad'
+            br50_news: '#3a87ad'
             event: '#3a87ad'
           rrule: ''
           duration: ''
